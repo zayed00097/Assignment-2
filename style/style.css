@@ -1,0 +1,540 @@
+/************************ BASE STYLE ************************/
+
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pinyon+Script&display=swap');
+@font-face {
+  font-family: Miama;
+  src: url(assets/font/Miama.ttf);
+}
+.pinyon-script-regular {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container box {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+
+.area {
+  padding: 80px;
+}
+.{
+  font-family: "Pinyon Script", cursive;
+}
+.primary-btn {
+  background-color: #e6533c;
+  padding: 10px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.primary-btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.5s ease-in;
+}
+
+.secondary-btn {
+  background-color: rgba(230, 83, 60, 0);
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  line-height: 22px;
+  font-size: 18px;
+}
+.secondary-btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.5s ease-in;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.sub-title {
+  font-size: 14px;
+  color: #8b8b8b;
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 10px;
+  line-height: 24px;
+}
+/************************* HEADER STYLE ****************************/
+#Gigo-section {
+  padding-top: 57px;
+  background: linear-gradient(70deg, #000000 0%, #2b2b2b 50%, #000000 100%);
+}
+
+.site-logo {
+  font-size: 36px;
+  font-weight: 900;
+  font-style: italic;
+  color: #e6533c;
+}
+
+.site-logo a {
+  font-size: 36px;
+  font-weight: 900;
+  font-style: italic;
+  color: #e6533c;
+  text-decoration: none;
+}
+
+nav.Navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  border: 1px solid rgba(121, 121, 121, 0.39);
+  border-radius: 50px;
+}
+.nav-item ul li {
+  padding: 10px;
+}
+
+.nav-item ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: normal;
+  padding: 5px 18px;
+}
+
+.nav-item ul li a:hover {
+  background-color: #e6533c;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.hero-img img {
+  margin-bottom: -4px;
+  z-computer: -1;
+}
+
+.nav-laptop {
+  display: none;
+}
+
+#home-icon {
+  background-color: #e6533c;
+  border-radius: 50px;
+}
+/* Section item 0034 */
+.section 1 {
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.section-info h1 {
+  font-size: 70px;
+  font-weight: 900;
+} 
+
+
+.img-overlay {
+  text-align: left;
+  padding: 25px;
+  background-color: #383838;
+  width: 200px;
+  height: 85px;
+  border-radius: 15px;
+}
+
+.video-list {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  bottom: 70px;
+  left: 13rem;
+ 
+}
+.workout-list {
+  position: absolute;
+  top: 7rem;
+  right: -6rem;
+}
+
+i.fa-solid.fa-circle {
+  color: #e6533c;
+  font-size: 30px;
+}
+
+.icon-info h5 {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.icon-info p {
+  font-size: 14px;
+  color: #8c8c8c;
+}
+
+.section-info {
+  max-width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 45px;
+}
+
+.hero-img {
+  text-align: right;
+  position: relative;
+}
+
+.section-info p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.grp-btn {
+  display: flex;
+  gap: 20px;
+}
+
+.section-info span {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-size: 78px;
+}
+
+/* Change Your Habit Section Start */
+.title-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.img-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.card img {
+  border-radius: 50%;
+  border: 3px solid #4e4e4e;
+  margin-bottom: 15px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card p {
+  width: 302px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(255 255 255 / 50%);
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+/* Run Extra Section Start */
+.text-area p {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.img-with-text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  background-color: #222222;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.img-area img {
+  max-width: 100%;
+  width: 450px;
+  height: 360px;
+  object-fit: none;
+  object-position: 68% 33%;
+  border-radius: 20px;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  width: 400px;
+}
+
+.img-area {
+  text-align: right;
+}
+
+/* Experience Section Start */
+.experience {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 50px;
+}
+
+.icon-details p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #8c8c8c;
+}
+
+.experience-details {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.icon-view i {
+  font-size: 35px;
+  background-color: #e6533c;
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-details h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 10px;
+}
+
+.experience-image img {
+  width: 400px;
+  height: auto;
+}
+
+.right-icon-info {
+  flex-direction: row-reverse;
+}
+
+.right-icon-info h3,
+.right-icon-info p {
+  text-align: right;
+}
+/* Section Style Start */
+.heading-section h2,
+.heading-section p {
+  text-align: left;
+  margin: 0px;
+  width: 600px;
+}
+
+.heading-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table.bmi-table {
+  text-align: left;
+  padding: 10px;
+  border-collapse: collapse;
+  margin-top: 40px;
+  width: 400px;
+  height: 280px;
+}
+
+table.bmi-table tr,
+td,
+th {
+  border: 1px solid #626262;
+  padding: 10px;
+}
+.bmi-table th {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.bmi-table td {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+.bmi-calc {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.bg-area {
+  background-color: #222222;
+}
+
+.bmi-calc h3 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.calc p {
+  margin: 0;
+  padding: 0;
+}
+
+form.bmi-calc-form input,
+select,
+option {
+  padding: 15px !important;
+  width: 100%;
+  border: 0px;
+  border-radius: 5px;
+  text-indent: 10px;
+  background-color: #383838;
+}
+.cm-row {
+  display: flex;
+  column-gap: 10px;
+  margin: 10px 0;
+}
+
+button.primary-btn.submit-btn {
+  margin-top: 10px;
+  border: 0px;
+}
+
+input::placeholder,
+select {
+  font-size: 14px;
+  color: #858585;
+}
+
+/* Team Member Style Start */
+.team-member {
+  background-color: #191919;
+  padding: 50px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 40px;
+}
+.team {
+  position: relative;
+}
+.team img {
+  border-radius: 15px;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: 38% 0;
+}
+
+.team-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.team-info h4 {
+  font-size: 20px;
+}
+
+.team-info p {
+  font-size: 14px;
+  color: #bbbbbb;
+}
+
+/* Footer Style */
+.main-footer {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  align-items: start;
+  gap: 50px;
+  padding: 20px 0 50px 0;
+}
+
+.menu-list ul li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.menu-list h3 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.main-footer .site-logo {
+  margin-bottom: 20px;
+}
+
+.main-footer .site-logo a {
+  margin-bottom: 20px;
+  font-size: 70px;
+}
+
+.logo-with-text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #8c8c8c;
+}
+
+.menu-list ul li a {
+  text-decoration: none;
+  color: #8c8c8c;
+  font-size: 23px;
+}
+
+.menu-list ul li a:hover {
+  color: #ffffff;
+}
+
+.copyright p {
+  text-align: center;
+  line-height: 24px;
+  padding: 15px;
+  font-size: 18px;
+  color: #8c8c8c;
+}
+
+.footer-area {
+  padding-top: 50px;
+}
+
+footer hr {
+  border-color: black;
+}
